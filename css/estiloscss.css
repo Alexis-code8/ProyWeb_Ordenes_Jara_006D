@@ -1,0 +1,87 @@
+.menu{
+    background-color: rgba(39, 123, 192, 0.534);
+}
+
+.card-img-top{
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cuerpo{
+    background-color: aquamarine;
+}
+.row col-12{
+    background-color: aqua;
+   
+}
+.letra{
+    color: black;
+    display: inline-block;
+}
+
+
+.cuerpo{
+    background-color: rgb(231, 225, 225);
+}
+
+body{
+    background:linear-gradient(rgb(231, 225, 225), rgb(94, 91, 91));
+}
+footer{
+    background-color: rgb(129, 133, 133);
+}
+.negro {
+    color: black;
+}
+.custom-row {
+    height: 200px; 
+  }
+
+.containerrr {
+    display: flex;
+  justify-content: center;
+
+  }
+
+.video-container {
+    position: relative;
+    width: 50%; 
+    max-width: 560px; 
+    margin: auto; 
+    padding-bottom: 25%; 
+    overflow: hidden;
+    
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.card-body{
+    height: auto;
+    display: inline ;
+}
+.imgmio{
+    border-radius: 8px;
+   width: 160px;
+    
+    height: 160px;
+}
+.img-fluid{
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.marcar:hover{
+    border: solid rgb(242, 242, 242);
+    border-radius: 8px;
+    padding: 9px 19px;
+
+
+}
+

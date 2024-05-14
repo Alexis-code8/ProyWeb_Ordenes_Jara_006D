@@ -1,0 +1,16 @@
+.bx-hide{
+    font-size: 1.5rem;
+}
+.bx-show-alt{
+    font-size: 1.5rem;
+}
+body{
+    background:linear-gradient(rgb(231, 225, 225), rgb(94, 91, 91));
+}
+.menu{
+    background-color: rgba(39, 123, 192, 0.534);
+}
+footer{
+   
+    background-color: rgb(129, 133, 133);
+}

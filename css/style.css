@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.containerr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+}
+
+
+.pass{
+    font-size: 1.5rem;
+    padding: 10px 0px 12px 42px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+body{
+    background:linear-gradient(rgb(231, 225, 225), rgb(94, 91, 91));
+}
+img{
+    border-radius: 8px;
+}
+#remarcar{
+    color: black;
+    font-weight: bold;
+}
+.menu{
+    background-color: rgba(39, 123, 192, 0.534);
+}
+form .containerr i.bx-hide{
+   
+    font-size: 35px;
+}
+form .containerr i.bx-user-circle{
+    background-color: rgb(202, 209, 208);
+    color: black;
+   border-radius: 8px;
+    font-size: 35px;
+}
+.bx-show-alt{
+    font-size: 35px;
+}
+label{
+    background-color: rgb(202, 209, 208);
+    color: black;
+    
+    border-radius: 8px;
+}
+
+footer{
+   
+    background-color: rgb(129, 133, 133);
+}
+
+.marcar:hover{
+    border: solid rgb(242, 242, 242);
+    border-radius: 8px;
+    padding: 9px 19px;
+
+
+}
+
+.espacio{
+    margin-bottom: 15%;
+}
