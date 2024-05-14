@@ -12,13 +12,7 @@
       const response = await fetch(url, options);
       const data = await response.json();
   
-      // Ver la respuesta completa en la consola
       console.log(data);
-  
-      // Extraer la dirección formateada de la respuesta si está disponible
-      const formattedAddress = data.results[1]?.formatted_address;
-  
-      // Mostrar la dirección en el elemento con id "result" en la página HTML
       document.getElementById('result').innerHTML = data.results[0].address;
 
     } catch (error) {
